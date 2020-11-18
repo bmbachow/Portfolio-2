@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav role="navigation">
+    <nav>
         <ul class="nav-buttons">
             <li><a href="#" id="nav-about-me">About Me</a></li>
             <li><a href="#" id="nav-skills">Skills</a></li>
@@ -21,19 +21,20 @@
         </ul>
     </nav>
 
-    <header role="banner">
+    <header>
         <h1>Clean and concise code<br /> is my passion</h1>
     </header>
 
-    <section class="about-me" role="region">
+    <section class="about-me">
         <div class="section-container">
-            <h3 class="section-title">About Me<img src="images/selfie.jpg" alt="Brian Face Image" class="col-4" /></h3>
+            <h3 class="section-title">About Me<img src="images/selfie.jpg" alt="Brian Face Image" class="col-1" /></h3>
+            <p>Hi, I'm Brian!</p>
             <p>I develop web apps and have fun while doing so.</p>
             <p>I have extensive experience with JavaScript and many of its adjacent technologies and enjoy the logic involved with working with them.</p>
         </div>
     </section>
 
-    <section class="skills" role="region">
+    <section class="skills">
         <div class="section-container">
             <h3 class="section-title">Skills</h3>
             <div class="skills-container">
@@ -44,7 +45,7 @@
                 <img src="images/ajax-logo.png" alt="AJAX" />
                 <img src="images/react-logo.jpg" alt="React" />
                 <img src="images/node-logo.png" alt="NodeJS" />
-                <img src="images/mongo-logo-2.png" alt="MongoDB" />
+                <img class="pg-logo" src="images/postgres-logo.png" alt="Postgres" />
                 <img src="images/mocha-logo.png" alt="Mocha" />
                 <img src="images/chai-logo.png" alt="Chai" />
                 <img src="images/github-logo.png" alt="Github" />
@@ -52,12 +53,12 @@
         </div>
     </section>
 
-    <section class="projects" role="region">
+    <section class="projects">
         <div class="section-container">
             <h3 class="section-title">Projects</h3>
-            <div class="project-container col-12">
-                <img class="col-6" src="images\vvgies.png" alt="VVGies" />
-                <div class="project-description col-6">
+            <div class="project-container col-3">
+                <img class="col-2" src="images/vvgies.png" alt="VVGies" />
+                <div class="project-description col-2">
                     <h6>VVGies</h6>
                     <p>Allows users to search for restaurants that cater to vegan, vegetarian, and gluten-free diets.</p>
                     <ul class="project-skills">
@@ -74,28 +75,22 @@
         </div>
     </section>
 
-    <section class="contact" role="region">
+    <section class="contact">
         <h3 class="section-title">Connect</h3>
         <ul>
             <li class="contact-info">
-                <a href="mailto:bmbachow@gmail.com?subject=Hello" target="_blank" aria-label="Email Brian">Email
-                    <i aria-hidden class="fas fa-envelope" title="Email"></i>
-                </a>
+                <a href="mailto:bmbachow@gmail.com?subject=Hello" target="_blank" aria-label="Email Brian"><img class="email" src="images/email-logo.jpg" alt="Email"></a>
             </li>
             <li class="contact-info">
-                <a href="https://github.com/bmbachow" target="_blank" aria-label="View GitHub profile">GitHub
-                    <i aria-hidden class="fab fa-github" title="GitHub"></i>
-                </a>
+                <a href="https://github.com/bmbachow" target="_blank" aria-label="View GitHub profile"><img class="email" src="images/github-logo.png" alt="Github"></a>
             </li>
             <li class="contact-info">
-                <a href="https://www.linkedin.com/in/brian-bachow/" target="_blank" aria-label="View LinkedIn profile">LinkedIn
-                    <i aria-hidden class="fab fa-linkedin" title="LinkedIn"></i>
-                </a>
+                <a href="https://www.linkedin.com/in/brian-bachow/" target="_blank" aria-label="View LinkedIn profile"><img class="email" src="images/linkedin-logo.png" alt="LinkedIn"></a>
             </li>
         </ul>
     </section>
 
-    <footer role="contentinfo">
+    <footer>
         <p>2020 Brian Bachow</p>
     </footer>
 

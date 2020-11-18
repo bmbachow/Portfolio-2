@@ -19,6 +19,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.email {
+    height: 70px;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -73,11 +77,15 @@ header h1 {
     text-align: right;
     color: white;
     text-shadow: 2px 0 0 rgb(105, 103, 103), -2px 0 0 rgb(105, 103, 103), 0 2px 0 rgb(105, 103, 103), 0 -2px 0 rgb(105, 103, 103), 1px 1px rgb(105, 103, 103), -1px -1px 0 rgb(105, 103, 103), 1px -1px 0 rgb(105, 103, 103), -1px 1px 0 rgb(105, 103, 103);
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Source Sans Pro', sans-serif;
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+}
+
+.pg-logo {
+    width: 130px;
 }
 
 section {
