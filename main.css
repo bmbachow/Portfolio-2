@@ -164,6 +164,12 @@ section.projects .project-container {
     }
 }
 
+@media only screen and (min-width: 460px) {
+    .email {
+        height: 70px;
+    }
+}
+
 section.projects .project-container h6 {
     font-family: 'Libre Franklin', sans-serifx;
     font-size: 1rem;
